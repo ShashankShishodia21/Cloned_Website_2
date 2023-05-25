@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300;400;500;600;700&family=Noto+Serif:wght@400;700&family=Quattrocento:wght@400;700&family=Rubik+Dirt&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+}
+.nav p {
+    display: inline-block;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.Rightnav {
+    background-color:black;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    color:white;
+}
+.Rightnav {
+    align-items: center;
+}
+.mid {
+    padding: 0 20px 0 20px;
+    font-size: 2em;
+    font-family: "Satisfy";
+}
+.section1{
+    padding: 25px 45px 25px 45px;
+    background: url("images task 2/cover-1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.section1-div {
+    margin: 40px;
+    padding: 30px;
+    background: rgba(0,0,0,0.05);
+    box-shadow: 0px 0px 10px black;
+    backdrop-filter: blur(2px);
+    text-align: center;
+    border: 1px solid black;
+}
+.section1 h1{
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 15px 10px 15px 10px;
+    border: 1px solid black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.319);
+}
+.section1 button{
+    font-family: "Satisfy";
+    margin: 30px;
+    padding: 10px 30px 10px 30px;
+    font-size: 1em;
+}
+.right-btn{
+    background-color: rgb(128, 128, 128);
+    color: white;
+}
+.section2 {
+    text-align: center;
+    padding: 40px 20px 40px 20px;
+    background-color: black;
+    color: white;
+}
+.section2 h1{
+    padding: 10px;
+    margin:0 30px 20px 30px;
+    font-family: "Rubik Dirt";
+    font-weight: 500;
+    font-size: 3em;
+    border-bottom: 1px solid white;
+}
+.section2 p{
+    padding: 5px 10px 5px 10px;
+    color: rgb(238, 229, 229);
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+.section2 h3{
+    padding: 5px 10px 5px 10px;
+    color: rgb(238, 229, 229);
+    letter-spacing: 1px;
+    font-size: 1.4em;
+}
+.section2 h4{
+    font-family: "Rubik Dirt";
+    font-weight: 500;
+}
+.newp{
+    font-family: "Rubik Dirt";
+    font-weight: 500;
+}
+.section3{
+    padding: 25px 45px 25px 45px;
+    background: url("images task 2/hollywood.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.section3 h1{
+    padding: 10px;
+    margin:0 30px 20px 30px;
+    font-family: "Rubik Dirt";
+    font-weight: 500;
+    font-size: 3em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.463);
+    
+}
+.section3 p{
+    padding: 20px;
+    margin-bottom: 30px;
+    color: rgb(238, 229, 229);
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.463);
+}
+.bottom {
+    border-bottom:10px solid white;
+}
+.section4{
+    padding: 25px 45px 25px 45px;
+    background: url("images task 2/cover.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.section4 h1{
+    padding: 10px;
+    margin:0 30px 20px 30px;
+    font-family: "Rubik Dirt";
+    font-weight: 500;
+    font-size: 3em;
+    z-index: 999;
+    color: white;
+}
+.section4 p{
+    padding: 20px;
+    margin-bottom: 30px;
+    color: rgb(238, 229, 229);
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    font-family: "Satisfy";
+    text-align: center;
+}
+.section4 form{
+    z-index: 99999999;
+}
+.section4 button{
+    padding: 5px 40px 5px 40px;
+    font-size: 1.5em;
+    background-color: black;
+    color: white;
+    font-family: "Satisfy";
+    
+}
+.section4 input{
+    background-color: rgba(0,0,0,0.0);
+    font-family: "Satisfy";
+    color:black;
+    font-size: 1em;
+    padding:5px ;
+    width: 35%;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    text-align: center ;
+}
+.section4 label{
+    text-align: left;
+    color: white;
+    width: 100%;
+    font-size: 28px;
+}
+.section4_square {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: rgb(0,0,0,0.08);
+    border: 5px solid rgb(0,0,0,0.1);
+    z-index: 0;
+}
+.footer p{
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    color: rgb(238, 229, 229);
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+.footer li{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+.images {
+    background-color:rgb(128, 128, 128) ;
+    padding: 0px 50px 30px 50px;
+}
+.images li{
+    display: inline;
+    padding: 0px 50px 0px 50px;
+    align-items: center;
+    justify-content: center;
+}
+.images ul{
+    text-align: center;
+
+}
+.images a{
+    display: inline-block;
+}
+.empty{
+    padding: 20px;
+    background-color: rgb(128, 128, 128);
+}
+
